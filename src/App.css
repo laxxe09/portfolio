@@ -1,0 +1,85 @@
+
+ /* Global Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo 2', cursive;
+  background-color: #FFF6EE; /* Pastel yellow background */
+  color: #2B2414;
+  scroll-behavior: smooth;
+}
+
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+
+/* Navigation Bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFF6EE; /* Soft cream */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #E6746B; /* Strawberry red */
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-shadow: 2px 2px #628A5D; /* Green drop shadow */
+}
+
+.navbar a:hover {
+  color: #628A5D;
+  
+}
+
+/* Sections */
+.section {
+  min-height: 100vh;
+  padding-top: 6rem;
+  text-align: center;
+  background-color: #FFF6EE;
+}
+
+/* Profile image */
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+/* About Section Text */
+.about-text {
+  color: #2B2414;
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Contact Links */ 
+.contact-links a {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: 3px solid #628A5D;
+  border-radius: 40px;
+  background-color: #E6746B;
+  color: #FFF6EE;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px #2B2414;
+}
+
+.contact-links a:hover {
+  background-color: #628A5D;
+  color: #FFF6EE;
+}

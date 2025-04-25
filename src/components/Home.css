@@ -1,0 +1,14 @@
+.home-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home-container h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+
+    
+  }
+  .home-header h1{
+    text-align: center;
+  }

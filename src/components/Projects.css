@@ -1,0 +1,121 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+
+/* Main container */
+.projects-overview {
+  background-color: #FFF6EE; /* Soft cream background */
+  padding: 4rem 5%;
+  font-family: 'Baloo 2', cursive;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  width: 90%;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+/* Header */
+.projects-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  width: 100%;
+ 
+}
+
+.projects-header h2 {
+  color: #E6746B; /* Strawberry red */
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 2px 2px #628A5D; /* Green drop shadow */
+}
+
+/* View button */
+.view-button {
+  background-color: #E6746B;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.3rem;
+  color: #FFF6EE;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 600;
+  text-shadow: 1px 1px #2B2414;
+}
+
+.view-button:hover {
+  background-color: #628A5D;
+  color: #FFF6EE;
+}
+
+/* Projects List */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 750px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  color: #E6746B;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 2px 2px #628A5D;
+}
+
+.project-description {
+  color: #2B2414;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-header h2 {
+    font-size: 3rem;
+  }
+
+  .project-description {
+    font-size: 1.25rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+}

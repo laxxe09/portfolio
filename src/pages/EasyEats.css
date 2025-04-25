@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+
+/* Main Easy Eats Page */
+.easy-eats-page {
+  padding: 4rem 2rem;
+  font-family: 'Baloo 2', cursive;
+  color: #2B2414; /* Dark brown text */
+  display: flex;
+  justify-content: center;
+  background-color: #FFF6EE; /* Creamy background */
+}
+
+
+/* Project Item Card */
+.project-item {
+  background-color: #FFF6EE; /* Match the cream */
+  padding: 3rem;
+  border-radius: 16px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.project-title {
+  font-size: 3rem;
+  color: #E6746B; /* Strawberry red title */
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 2px 2px #628A5D; /* Green soft shadow */
+}
+
+/* Section container */
+.project-section {
+  margin-bottom: 2.5rem;
+}
+
+/* Section headings */
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #775B45; /* Warm brown heading */
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #628A5D; /* Soft green border underline */
+  padding-bottom: 0.5rem;
+}
+
+/* Paragraphs inside sections */
+.project-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #2B2414; /* Dark brown text */
+  margin-bottom: 1rem;
+
+}
+
+/* Poster Image */
+.project-poster {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}

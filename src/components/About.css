@@ -1,0 +1,12 @@
+.about-section {
+  padding: 2rem;
+  line-height: 1.6;
+  background-color: #FBEAEB;
+  color: #000000;
+  font-family: 'Helvetica Neue', Roboto, sans-serif;
+}
+
+.about-section h2 {
+  margin-bottom: 1rem;
+  color: #2F3C7E;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+
+.project-item {
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 4rem auto;
+  font-family: 'Baloo 2', cursive;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  color: #2B2414;
+}
+
+.project-title {
+  font-size: 3rem;
+  color: #E6746B;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  text-shadow: 2px 2px #628A5D;
+}
+
+.project-subtitle {
+  font-size: 1.25rem;
+  color: #775B45;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.project-section {
+  margin-bottom: 2.5rem;
+}
+
+.project-section p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #2B2414;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.project-highlight {
+  font-weight: 700;
+}
+
+.project-section ul {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  list-style: none;
+  color: #2B2414;
+}
+
+.project-section li {
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+}
+
+.github-link-section {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: #FFF6EE;
+  color: #2B2414;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.github-link-section p {
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+  color: #E6746B;
+  text-shadow: 1px 1px #628A5D;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #E6746B;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.github-link:hover {
+  color: #628A5D;
+  text-decoration: underline;
+}
