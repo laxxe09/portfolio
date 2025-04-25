@@ -50,39 +50,41 @@ const PokemonBinder = () => {
       <div className="sketch-section">
   
       
-      <p className="sketch-caption">
-  Part of my current Pokemon card collection!
-</p>
-<img
-    src="/collection1.jpeg"
-    alt="collection"
-    className="collection-image"
-  />
-  <img
-    src="/collection2.jpeg"
-    alt="collection"
-    className="collection-image"
-  />
+    <div className="sketch-section">
   <p className="sketch-caption">
-  Initial idea / sketches:
-</p>
-   
+    Part of my current Pokémon card collection!
+  </p>
 
   <img
-    src="/Pokebinder-sketch.jpg"
+    src={process.env.PUBLIC_URL + "/collection1.jpeg"}
+    alt="collection 1"
+    className="collection-image"
+  />
+  <img
+    src={process.env.PUBLIC_URL + "/collection2.jpeg"}
+    alt="collection 2"
+    className="collection-image"
+  />
+
+  <p className="sketch-caption">
+    Initial idea / sketches:
+  </p>
+
+  <img
+    src={process.env.PUBLIC_URL + "/Pokebinder-sketch.jpg"}
     alt="Initial sketches"
     className="sketch-image"
   />
-   <p className="sketch-caption">
-  So far, I have the base template of the page.
-</p>
+
+  <p className="sketch-caption">
+    So far, I have the base template of the page.
+  </p>
 
   <img
-    src="/current_design.jpg"
-    alt="Initial sketches"
+    src={process.env.PUBLIC_URL + "/current_design.jpg"}
+    alt="Current design"
     className="sketch-image"
   />
- 
 </div>
 
 </div>
