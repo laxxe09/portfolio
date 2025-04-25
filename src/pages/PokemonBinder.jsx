@@ -4,11 +4,12 @@ import './PokemonBinder.css';
 const PokemonBinder = () => {
   return (
     <div className="project-item">
-      <h1 className="project-title"  style={{ color: '#E6746B' }}>PokémonBinder (In progress)</h1>
+      <h1 className="project-title" style={{ color: '#E6746B' }}>PokémonBinder (In progress)</h1>
       
-      <h4 className="project-subtitle"  style={{ color: '#E6746B;' }}>
+      <h4 className="project-subtitle" style={{ color: '#E6746B' }}>
         A digital binder for organizing and sharing your Pokémon card collection online.
       </h4>
+
       <div className="github-link-section">
         <p>🔗 View this project on GitHub:</p>
         <a
@@ -28,7 +29,7 @@ const PokemonBinder = () => {
           or carrying a binder around.
         </p>
         <p>
-          That’s when I decided to build a virtual <strong>PokémonBinder</strong>,  a web app 
+          That’s when I decided to build a virtual <strong>PokémonBinder</strong>, a web app 
           where I can log my collection,
           organize it by sets or types, and share it with others online.
         </p>
@@ -37,60 +38,52 @@ const PokemonBinder = () => {
           It's designed for collectors who want a modern, safe, and fun way to manage their cards.
         </p>
         <p>
-        I used TypeScript for a smoother development experience 
-         and styled the interface with Tailwind CSS for a clean, responsive design.
+          I used TypeScript for a smoother development experience 
+          and styled the interface with Tailwind CSS for a clean, responsive design.
           One of the key features of the app is its integration with the <strong>Pokémon TCG API</strong>,
-           which allows users to search for cards and fetch real-time data directly from 
-           the official database. I structured the project using standard React 
-           conventions and set up a .env file to securely manage API keys and environment 
-           variables.
+          which allows users to search for cards and fetch real-time data directly from 
+          the official database. I structured the project using standard React 
+          conventions and set up a .env file to securely manage API keys and environment 
+          variables.
         </p>
       </section>
-      <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+
       <div className="sketch-section">
-  
-      
-    <div className="sketch-section">
-  <p className="sketch-caption">
-    Part of my current Pokémon card collection!
-  </p>
+        <p className="sketch-caption">
+          Part of my current Pokémon card collection!
+        </p>
 
-  <img
-    src={process.env.PUBLIC_URL + "/collection1.jpeg"}
-    alt="collection 1"
-    className="collection-image"
-  />
-  <img
-    src={process.env.PUBLIC_URL + "/collection2.jpeg"}
-    alt="collection 2"
-    className="collection-image"
-  />
+        <img
+          src={process.env.PUBLIC_URL + "/collection1.jpeg"}
+          alt="collection 1"
+          className="collection-image"
+        />
+        <img
+          src={process.env.PUBLIC_URL + "/collection2.jpeg"}
+          alt="collection 2"
+          className="collection-image"
+        />
 
-  <p className="sketch-caption">
-    Initial idea / sketches:
-  </p>
+        <p className="sketch-caption">
+          Initial idea / sketches:
+        </p>
 
-  <img
-    src={process.env.PUBLIC_URL + "/Pokebinder-sketch.jpg"}
-    alt="Initial sketches"
-    className="sketch-image"
-  />
+        <img
+          src={process.env.PUBLIC_URL + "/Pokebinder-sketch.jpg"}
+          alt="Initial sketches"
+          className="sketch-image"
+        />
 
-  <p className="sketch-caption">
-    So far, I have the base template of the page.
-  </p>
+        <p className="sketch-caption">
+          So far, I have the base template of the page.
+        </p>
 
-  <img
-    src={process.env.PUBLIC_URL + "/current_design.jpg"}
-    alt="Current design"
-    className="sketch-image"
-  />
-</div>
-
-</div>
-
-
-      
+        <img
+          src={process.env.PUBLIC_URL + "/current_design.jpg"}
+          alt="Current design"
+          className="sketch-image"
+        />
+      </div>
     </div>
   );
 };
