@@ -79,7 +79,7 @@ const PokemonBinder = () => {
         </p>
 
         <img
-          src={process.env.PUBLIC_URL + "/current_design.jpg"}
+          src={process.env.PUBLIC_URL + "/Current_design.jpg"}
           alt="Current design"
           className="sketch-image"
         />

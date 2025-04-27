@@ -14,7 +14,7 @@ const EasyEats = () => {
         <div className="github-link-section">
           <p>🔗 View this project on GitHub:</p>
           <a
-            href="https://github.com/your-username/easy-eats" // ← replace with your actual repo URL
+            href="https://github.com/your-username/easy-eats" 
             target="_blank"
             rel="noopener noreferrer"
             className="github-link"
