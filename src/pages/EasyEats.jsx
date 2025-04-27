@@ -61,13 +61,14 @@ const EasyEats = () => {
         </section>
 
         <iframe
-          src="/poster.pdf"
-          width="80%"
-          height="1200px"
-          title="Easy Eats Final Poster"
-          className="project-poster"
-          style={{ border: 'none', marginTop: '2rem' }}
-        />
+  src={process.env.PUBLIC_URL + "/poster.pdf"}
+  width="80%"
+  height="1200px"
+  title="Easy Eats Final Poster"
+  className="project-poster"
+  style={{ border: 'none', marginTop: '2rem' }}
+/>
+
         
       </div>
     </div>
