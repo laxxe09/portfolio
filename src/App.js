@@ -14,7 +14,7 @@ import PortfolioPlatform from './pages/PortfolioPlatform';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="App">
         <Header />
         <Routes>
