@@ -9,14 +9,14 @@ const DesignWrld = () => {
         A design research project exploring how students find portfolio ideas and connect with industry professionals.
       </h4>
       <div className="github-link-section">
-        <p>🔗 Link Coming Soon:</p>
+        <p>🔗 View this project on Medium:</p>
         <a
-          
+          href='https://cse440.medium.com/from-inspiration-to-collaboration-welcome-to-design-wrld-db4db2430051'
           target="_blank"
           rel="noopener noreferrer"
           className="github-link"
         >
-          Coming soon
+          DesignWrld
         </a>
       </div>
       <section className="project-section">
