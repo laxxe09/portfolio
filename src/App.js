@@ -12,6 +12,7 @@ import FinanceTracker from './pages/FinanceTracker';
 import PokemonBinder from './pages/PokemonBinder';
 import DesignWrld from './pages/DesignWrld';
 import Nionswift from './pages/Nionswift';
+import InternetFreedom from './pages/InternetFreedom';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
           {/* Project-specific Routes */}
           <Route path="/nionswift_plugin" element={<Nionswift />} />
+          <Route path="/internet_freedom" element={<InternetFreedom />} />
           <Route path="/designwrld" element={<DesignWrld />} />
           <Route path="/easyeats" element={<EasyEats />} />
           <Route path="/pokemonbinder" element={<PokemonBinder />} />

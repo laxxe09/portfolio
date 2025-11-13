@@ -13,10 +13,12 @@ const Header = () => {
             <Link to="/projects" className="nav-link">Projects</Link>
             <ul className="dropdown-menu">
               <li><Link to="/nionswift_plugin">Nionswift Plugin</Link></li>
+              <li><Link to="/internet_freedom">Data Visualization Project - Internet Freedom</Link></li>
               <li><Link to="/designwrld">DesignWrld</Link></li>
               <li><Link to="/easyeats">Easy Eats</Link></li>
               <li><Link to="/pokemonbinder">PokémonBinder</Link></li>
               <li><Link to="/financetracker">Finance Tracker</Link></li>
+
               
               
              
