@@ -12,10 +12,15 @@ const Header = () => {
           <li className="nav-item">
             <Link to="/projects" className="nav-link">Projects</Link>
             <ul className="dropdown-menu">
+              <li><Link to="/nionswift_plugin">Nionswift Plugin</Link></li>
+              <li><Link to="/designwrld">DesignWrld</Link></li>
               <li><Link to="/easyeats">Easy Eats</Link></li>
-              <li><Link to="/financetracker">Finance Tracker</Link></li>
               <li><Link to="/pokemonbinder">PokémonBinder</Link></li>
-              <li><Link to="/portfolioplatform">Portfolio Platform</Link></li>
+              <li><Link to="/financetracker">Finance Tracker</Link></li>
+              
+              
+             
+
             </ul>
           </li>
 

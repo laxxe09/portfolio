@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Projects.css'; // Assuming you're using this CSS file for styling
+import './Projects.css'; 
 
 const Projects = () => {
   return (
@@ -43,6 +43,17 @@ const Projects = () => {
           </p>
         </div>
 
+         {/* Project 5: Nion Swift Plugin */}
+         <div className="project-card">
+          <h3 className="project-title">
+            <Link to="/nionswift" className="project-link">
+              Nion Swift Plugin
+            </Link>
+          </h3>
+          <p className="project-description">
+          A Basic Image Processing Panel to Nion Swift that streamlines commonly used image processing tasks.
+          </p>
+        </div>
         {/* Project 4: DesignWrld */}
         <div className="project-card">
           <h3 className="project-title">
@@ -54,6 +65,7 @@ const Projects = () => {
             A web app that allows you to showcase your portfolio, showcasing design principles, technical abilities, and visual appeal.
           </p>
         </div>
+
       </div>
     </div>
   );

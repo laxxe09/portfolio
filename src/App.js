@@ -11,6 +11,7 @@ import EasyEats from './pages/EasyEats';
 import FinanceTracker from './pages/FinanceTracker';
 import PokemonBinder from './pages/PokemonBinder';
 import DesignWrld from './pages/DesignWrld';
+import Nionswift from './pages/Nionswift';
 
 
 function App() {
@@ -26,10 +27,13 @@ function App() {
           <Route path="/contact" element={<Contact />} />
 
           {/* Project-specific Routes */}
-          <Route path="/easyeats" element={<EasyEats />} />
-          <Route path="/financetracker" element={<FinanceTracker />} />
-          <Route path="/pokemonbinder" element={<PokemonBinder />} />
+          <Route path="/nionswift_plugin" element={<Nionswift />} />
           <Route path="/designwrld" element={<DesignWrld />} />
+          <Route path="/easyeats" element={<EasyEats />} />
+          <Route path="/pokemonbinder" element={<PokemonBinder />} />
+          <Route path="/financetracker" element={<FinanceTracker />} />
+         
+         
         </Routes>
       </div>
     </Router>
