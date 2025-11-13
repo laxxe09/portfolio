@@ -43,11 +43,11 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Project 4: Portfolio Platform */}
+        {/* Project 4: DesignWrld */}
         <div className="project-card">
           <h3 className="project-title">
-            <Link to="/portfolioplatform" className="project-link">
-              Portfolio Showcase Platform
+            <Link to="/designwrld" className="project-link">
+              DesignWrld
             </Link>
           </h3>
           <p className="project-description">
