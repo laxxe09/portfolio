@@ -1,5 +1,5 @@
 import React from 'react';
-import './PortfolioPlatform.css';
+import './DesignWrld.css';
 
 const DesignWrld = () => {
   return (

@@ -10,7 +10,8 @@ import Contact from './components/Contact';
 import EasyEats from './pages/EasyEats';
 import FinanceTracker from './pages/FinanceTracker';
 import PokemonBinder from './pages/PokemonBinder';
-import PortfolioPlatform from './pages/PortfolioPlatform';
+import DesignWrld from './pages/DesignWrld';
+
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Route path="/easyeats" element={<EasyEats />} />
           <Route path="/financetracker" element={<FinanceTracker />} />
           <Route path="/pokemonbinder" element={<PokemonBinder />} />
-          <Route path="/portfolioplatform" element={<PortfolioPlatform />} />
+          <Route path="/designwrld" element={<DesignWrld />} />
         </Routes>
       </div>
     </Router>
